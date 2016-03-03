@@ -1,7 +1,7 @@
 <?php
 
 /** Add fuzzy search in tables for Adminer
-* @link #TODO
+* @link https://github.com/brunetton/adminer-tables_fuzzy_search
 * @author Bruno Duyé, https://github.com/brunetton
 * @license http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
 * @license http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License, version 2 (one or other)
