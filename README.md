@@ -1,7 +1,7 @@
 # Presentation
 
 
-AdminerTablesFuzzySearch is a **plugin for [Adminer](http://www.adminer.org/)** that add a **fuzzy search** function on current DB tables. This is really usefull when working on hudge databases with tons of tables.
+`AdminerTablesFuzzySearch` is a **plugin for [Adminer](http://www.adminer.org/)** that add a **fuzzy search** function on current DB tables. This is really useful when working on hudge databases with tons of tables.
 
 ![screenshot](screenshot.png)
 
@@ -22,14 +22,14 @@ AdminerTablesFuzzySearch is a **plugin for [Adminer](http://www.adminer.org/)** 
 
 4. [Download `adminer-tables_fuzzy_search.php`](https://github.com/brunetton/adminer-tables_fuzzy_search/blob/master/adminer-tables_fuzzy_search.php) and place it into plugins folder
 
-File structure will be:
-```
-- adminer.php
-- plugins
-    - plugin.php
-	- adminer-tables_fuzzy_search.php
-	- ... (other plugins you've already installed)
-```
+	File structure will be:
+	```
+	- adminer.php
+	- plugins
+	    - plugin.php
+		- adminer-tables_fuzzy_search.php
+		- ... (other plugins you've already installed)
+	```
 
 5. Edit or create `index.php` file next to adminer.php and [configure plugins](http://www.adminer.org/plugins/#use) and add `new AdminerTablesFuzzySearch()` to $plugins array :
 
