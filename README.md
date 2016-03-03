@@ -1,8 +1,9 @@
 # Presentation
 
-![](screenshot.png)
 
 AdminerTablesFuzzySearch is a **plugin for [Adminer](http://www.adminer.org/)** that add a **fuzzy search** function on current DB tables. This is really usefull when working on hudge databases with tons of tables.
+
+![screenshot](screenshot.png)
 
 ## Usage
 
