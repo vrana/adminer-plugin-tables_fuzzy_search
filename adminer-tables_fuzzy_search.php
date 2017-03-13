@@ -153,7 +153,7 @@ class AdminerTablesFuzzySearch {
 			closeResults();
 		} else {
 			delay(function() {
-				tablesFilter(document.querySelector('#fuzzy_tables_search_input').value);
+				tablesFilter(document.querySelector('#fuzzy_tables_search_input').value.replace(/ /g,''));
 			}, 200);
 		}
 	}, false);
