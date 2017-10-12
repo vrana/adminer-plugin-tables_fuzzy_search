@@ -32,7 +32,7 @@ function tablesFilter(query) {
         return;
     }
     // Get spans containing tables names and links
-    var tables = document.querySelectorAll('#tables > a.select');
+    var tables = document.querySelectorAll('#tables li > a.select');
     var tablesData = new Array(tables.length);
     // tablesData is an array of objects with properties:
     //   - name: name of the table
