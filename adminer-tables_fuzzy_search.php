@@ -21,7 +21,7 @@ class AdminerTablesFuzzySearch {
 }
 </style>
 
-<script type="text/javascript">
+<script type="text/javascript"<?php echo Adminer\nonce(); ?>>
 <?php
 	include("fuzzy_min.js");
 	include("fuzzy_search.js");
@@ -46,7 +46,7 @@ class AdminerTablesFuzzySearch {
 <?php
 		Adminer::tablesPrint();
 		?>
-<script type="text/javascript">
+<script type="text/javascript"<?php echo Adminer\nonce(); ?>>
 <?php include "tables_print.js"; ?>
 </script>
 <?
